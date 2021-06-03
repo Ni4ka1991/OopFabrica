@@ -7,12 +7,16 @@ from db import *
 
 ingredients = loadInfo("ingredients")
 
+ingredients_as_list = dataConversion(ingredients)
 
-coffee_machine_1 = CoffeeMachine("Philips")
-coffee_machine_2 = CoffeeMachine("Bosh")
+brands = [ "Philips", "Bosch", "DeLonghi", "Saeco" ]
 
-coffee_1 = CoffeeMachine.makeCoffee( coffee_machine_1, "Cappuccino", ingredients )
+
+coffee_machine_1 = CoffeeMachine(brands[0])
+coffee_machine_2 = CoffeeMachine(brands[1])
+
+coffee_1 = CoffeeMachine.makeCoffee( coffee_machine_1, "Espresso", ingredients_as_list[0] )
+
 system( "clear" )
-print(coffee_machine_1)
-print(type(coffee_1))
 print(coffee_1)
+
