@@ -4,19 +4,18 @@
 from os import system
 from coffee import CoffeeMachine
 from db import *
+from coffee_house import *
 
-ingredients = loadInfo("ingredients")
-
-ingredients_as_list = dataConversion(ingredients)
-
-brands = [ "Philips", "Bosch", "DeLonghi", "Saeco" ]
-
-
-coffee_machine_1 = CoffeeMachine(brands[0])
-coffee_machine_2 = CoffeeMachine(brands[1])
-
-coffee_1 = CoffeeMachine.makeCoffee( coffee_machine_1, "Espresso", ingredients_as_list[0] )
+brands = [ "Philips", "Bosch", "DeLonghi", "Saeco" ]# Philips -> Mocha (milk foam, stremed milk, hot chocolate, espresso )
+    
+    
+    if( brand_index == 0 ):
+        necessary_ingredients_index = [ 0,  ]
+    coffee_1 = CoffeeMachine.makeCoffee( CoffeeMachine(brands[brand_index]), coffee_type, coffee_ingredients )
+    print(coffee_1)
 
 system( "clear" )
-print(coffee_1)
+#produceCoffee( 0, "Espresso" )
+print( createIngredientQuantity( 0, 50 ))
+
 

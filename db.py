@@ -8,7 +8,7 @@ def loadInfo( fileName ):
     file.close()
     return data
 
-def dataConversion( data ):
-    data.items()
-    data_as_list = list( data.items() )
-    return data_as_list
+#def dataConversion( data ):
+#    data.items()
+#    data_as_list = list( data.items() )
+#    return data_as_list

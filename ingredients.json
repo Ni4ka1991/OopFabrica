@@ -1,8 +1,48 @@
-{
-	"water" : "100 ml",
-	"sugar" : " 2 gr",
-	"milk"  : "50 ml",
-	"coffee": "30 gr",
-	"salt"  : "0,3 gr"
+[ 
 
-}
+	{
+	"name" : "water",
+        "unit": "ml"
+	},
+	
+	{
+	"name" : "sugar",
+	"unit" : "gr"
+	},
+	
+	{
+	"name" :"streamed milk ",
+	"unit" : "ml"
+	},
+	
+	{
+	"name" : "milk foam",
+ 	"unit" : "ml"
+	},
+	
+	{
+	"name" : "Espresso",
+	"unit" : "ml"
+	},
+	
+	{
+	"name" : "hot chocolate",
+	"unit" : "ml"
+	},
+	
+	{
+	"name" : "ice cream",
+	"unit" : "gr"
+	},
+	
+	{
+	"name" : "whiskey",
+	"unit" : "ml"
+	},
+	
+	{
+	"name" : "cream",
+	"unit" : "gr"
+	}
+
+]
