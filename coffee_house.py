@@ -3,7 +3,8 @@
 
 from db import *
 
-ingredients = loadInfo("ingredients")
+ingredients    = loadInfo( "ingredients" )
+kind_of_coffee = loadInfo( "kind_of_coffee" )
 
 def createIngredientQuantity( ingredient_index, quantity ):    
     return {

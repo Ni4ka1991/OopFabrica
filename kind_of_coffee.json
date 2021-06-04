@@ -1,0 +1,138 @@
+[
+	{
+	       	"Mocha" : [
+			
+			{
+	                 "name" : "Espresso",
+	                 "quantity" : 40
+	                },
+		
+	                {
+	                 "name" : "Hot chocolate",
+	                 "quantity" : 30
+	                },
+		
+	                {
+	                 "name" : "Steamed milk",
+	                 "quantity" : 20
+	                },
+		
+	                {
+	                 "name" : "Milk foam",
+	                 "quantity" : 30
+	                }
+
+	                ]
+	
+        },
+
+	{
+	       	"Latte" : [
+			
+			{
+	                 "name" : "Espresso",
+	                 "quantity" : 40
+	                },  
+		
+	                {
+	                 "name" : "Steamed milk",
+	                 "quantity" : 50
+	                },
+		
+	                {
+	                 "name" : "Milk foam",
+	                 "quantity" : 10
+	                }
+
+	                ]
+	
+        },
+
+
+	{
+	       	"Cappuccino" : [
+			
+			{
+	                 "name" : "Espresso",
+	                 "quantity" : 40
+	                },  
+		
+	                {
+	                 "name" : "Steamed milk",
+	                 "quantity" : 40
+	                },
+		
+	                {
+	                 "name" : "Milk foam",
+	                 "quantity" : 20
+	                }
+
+	                ]
+	
+        },
+
+
+	{
+	       	"Espresso" : [
+			
+			{
+	                 "name" : "Espresso",
+	                 "quantity" : 100
+	                }  
+	                ]
+	
+        },
+
+	{
+	       	"Americano" : [
+			
+			{
+	                 "name" : "Espresso",
+	                 "quantity" : 40
+	                },  
+		
+	                {
+	                 "name" : "Water",
+	                 "quantity" : 40
+	                }
+
+	                ]
+	
+        },
+
+
+	{
+	       	"Cortado" : [
+			
+			{
+	                 "name" : "Espresso",
+	                 "quantity" : 50
+	                },  
+		
+	                {
+	                 "name" : "Steamed milk",
+	                 "quantity" : 50
+	                }
+
+	                ]
+	
+        },
+
+	{
+	       	"Flat White" : [
+			
+			{
+	                 "name" : "Espresso",
+	                 "quantity" : 35
+	                },  
+		
+	                {
+	                 "name" : "Steamed milk",
+	                 "quantity" : 65
+	                }
+
+	                ]
+	
+        }
+
+]
