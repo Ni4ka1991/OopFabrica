@@ -1,0 +1,35 @@
+[
+	{
+		"Philips" : 
+			[
+			"Mocha",
+			"Latte",
+			"Cappuccino"
+			]		
+	
+	},
+
+	{
+		"Bosch" :
+			[
+			"Espresso",
+			"Americano"
+			]
+	},
+	
+	{
+		"DeLonghi":
+			[
+			"Cortado"
+			]
+	},
+	
+	{
+		"Saeco":
+			[
+			"Flat White"
+			]
+	}
+
+
+]

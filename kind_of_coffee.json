@@ -4,22 +4,22 @@
 			
 			{
 	                 "name" : "Espresso",
-	                 "quantity" : 40
+	                 "quantity" : 100
 	                },
 		
 	                {
 	                 "name" : "Hot chocolate",
-	                 "quantity" : 30
+	                 "quantity" : 60
 	                },
 		
 	                {
 	                 "name" : "Steamed milk",
-	                 "quantity" : 20
+	                 "quantity" : 50
 	                },
 		
 	                {
 	                 "name" : "Milk foam",
-	                 "quantity" : 30
+	                 "quantity" : 10
 	                }
 
 	                ]
@@ -31,12 +31,12 @@
 			
 			{
 	                 "name" : "Espresso",
-	                 "quantity" : 40
+	                 "quantity" : 100
 	                },  
 		
 	                {
 	                 "name" : "Steamed milk",
-	                 "quantity" : 50
+	                 "quantity" : 100
 	                },
 		
 	                {
