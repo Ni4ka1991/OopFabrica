@@ -6,20 +6,33 @@ from coffee import CoffeeMachine
 from db import *
 from coffee_house import *
 
-brands = [ "Philips", "Bosch", "DeLonghi", "Saeco" ]# Philips -> Mocha (milk foam - 10 ml, stremed milk - 50 ml;, hot chocolate - 60 gr, espresso - 100 ml  -> )
+brands = [ "Philips", "Bosch", "DeLonghi", "Saeco" ]
     
 ingredients = []
-brands_
+brands_assortment_coffee = loadInfo( "brands_assortment_coffee" )
 
 
-#philips ---> Mocha - 2 serving
+string = f"{brands_assortment_coffee[ 0 ]['assortment']}"
+replace_symb = ["[", "]", "'", " " ]
+pc = replaceSymbols( replace_symb, string )
+
+
 #def coffeeBarista( ):
 while True:
     option = printActionList( brands, "Coffee machine Brands:" )
-    
-    if( option == 1 ):
-        loadInfo
 
+    if( option == 1 ):
+        print()
+        opt = printActionList( pc, "Assortment of coffee:")
+        
+        if( opt == 1 ):
+            qua = int(input( "How many ... do you want?" )
+
+#        print( f"<{brands_assortment_coffee[0]['name']}>" )
+#        input( "hit enter ..." )
+    
+    elif( option == 5 ):
+        break
 
 
 

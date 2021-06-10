@@ -1,6 +1,7 @@
 [
 	{
-		"Philips" : 
+		"name"      : "Philips",
+	        "assortment":	
 			[
 			"Mocha",
 			"Latte",
@@ -10,7 +11,8 @@
 	},
 
 	{
-		"Bosch" :
+		"name"      : "Bosch",
+		"assortment":
 			[
 			"Espresso",
 			"Americano"
@@ -18,14 +20,16 @@
 	},
 	
 	{
-		"DeLonghi":
+		"name"      : "DeLonghi",
+		"assortment":
 			[
 			"Cortado"
 			]
 	},
 	
 	{
-		"Saeco":
+		"name"      :"Saeco",
+		"assortment":
 			[
 			"Flat White"
 			]

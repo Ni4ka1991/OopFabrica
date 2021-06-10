@@ -27,6 +27,49 @@ def printActionList( items, title = None ):
      f"{i + 1:2} {items[i]} "
   )
  print( "#" * 20 )
+ print( f" For exit enter {len(items) + 1}")
+ print( "#" * 20 )
  
  option = int( input( " Select menu item >>> " ))
  return option
+
+
+def replaceSymbols( symb_list, string ):
+    i = 0
+    while i < len(symb_list):
+        string = string.replace( symb_list[i], "" )
+        i += 1
+    
+    split_string = string.split(",")
+
+    return split_string
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
