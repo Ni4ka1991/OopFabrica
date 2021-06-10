@@ -12,7 +12,7 @@ ingredients = []
 replace_symb = ["[", "]", "'", " " ]
 
 
-#def coffeeBarista( ):
+
 while True:
     option = printActionList( brands, "Coffee machine Brands:" )
 
@@ -23,8 +23,13 @@ while True:
         
         if( opt > 0 and opt <= len(selectBrands_Coffee( option - 1 ))):
             quan = int(input( "How many cup of coffee do you whant? --> " ))
-            print( f"You order {quan} cup of coffe {list_maker(replace_symb, option - 1)[opt - 1]}" )
-
+            print( f"You order {quan} cup of coffe {list_maker(replace_symb, option - 1)[opt - 1]}\n" )
+            print( "List and quantity of ingredients:" )
+            i = 0
+            while i < len(kind_of_coffee[opt - 1]['Mocha']):
+                print( f"{kind_of_coffee[opt - 1]['Mocha'][i]['name']} - {kind_of_coffee[opt - 1]['Mocha'][i]['quantity']}" )
+                i += 1
+            input("hit...")
         
         else:
             print("Enter correct value")
@@ -50,10 +55,3 @@ while True:
         raise ValueError
         print( "Enter one of menu item..." )
 
-
-print( f"\
- {ingredients[0]['name']} - {ingredients[0]['quantity']} {ingredients[0]['unit']};\
- {ingredients[1]['name']} - {ingredients[1]['quantity']} {ingredients[1]['unit']};\
-        ")
-print()
-#print( kind_of_coffee )
